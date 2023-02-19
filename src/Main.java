@@ -80,7 +80,7 @@ public class Main {
             var sotrudnik2 = 174;
             var sotrudnik3 = 8;
             var sotrudnikWeight = sotrudnik2 / sotrudnik3;
-            System.out.println(" Если в компании работает " + sotrudnikLeft + " человека то всего " + sotrudnikWeight + " часов работы может быть поделено между сотрудниками ");
+            System.out.println(" Если в компании работает " + sotrudnikLeft + " человека то всего " + sotrudnikWeight + " час работы может быть поделено между сотрудниками ");
 
             //Считаем перенменные var
 
