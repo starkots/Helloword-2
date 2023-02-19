@@ -28,6 +28,7 @@ public class Main {
 //используем переменную var
             var friend = 19;
         friend = friend + 2;
+        System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
 
@@ -41,10 +42,12 @@ public class Main {
 //используем переменную var
             var frog = 3.5;
         frog = frog * 10;
-        frog = frog / 3.5;
-        frog = frog + 4;
-
         System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
 
 
         System.out.println("Задача 4");
@@ -53,8 +56,8 @@ public class Main {
 
             var boks = 78.2;
             var boks2 = 82.7;
-            var boksLeft = boks + boks2;
-            System.out.println(" Общий вес " + boksLeft + " кг ");
+            var boks3Left = boks + boks2;
+            System.out.println(" Общий вес " + boks3Left + " кг ");
 
             var boks3 = 78.2;
             var boks4 = 82.7;
