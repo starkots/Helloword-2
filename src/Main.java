@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Привет Мир");
 
 
 
@@ -9,22 +9,27 @@ public class Main {
 
             // используем тип переменной var
             var dog = 8.0;
-            System.out.println(dog);
             dog = dog + 4;
+            System.out.println(dog);
+
 
 
             var cat = 3.6;
-            System.out.println(cat);
-            cat = cat + 4;
+             cat = cat + 4;
+        System.out.println(cat);
+
+
 
             var papaer = 763789;
+             papaer = papaer + 4;
             System.out.println(papaer);
-            papaer = papaer + 4;
+
 
         System.out.println("Задача 2");
 
 
             System.out.println(dog);
+            
 
             dog = dog + 3.5;
             System.out.println(cat);
@@ -42,7 +47,7 @@ public class Main {
             friend = friend + 2;
             System.out.println(friend);
             friend = friend / 7;
-            System.out.println(friend);
+
 
         System.out.println("Задача 3");
 
