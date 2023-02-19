@@ -81,6 +81,7 @@ public class Main {
 
             //Считаем перенменные var
 
+        //...
 
         System.out.println("Задача 7");
 
