@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Привет Мир");
@@ -126,7 +128,7 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + etime5 + " штук бутылок");
         System.out.println("За месяц машина произвела " + etime6 + " штук бутылок");
 
-        System.out.println("Задача 5");
+        System.out.println("Задача 10");
 
         int BKol = 120;
         int white = 2;
@@ -138,7 +140,7 @@ public class Main {
         System.out.println("В школе, где " + ob + " классов, нужно " + white1 + " банок белой краски и " + kor1 +  " банок коричневой краски");
 
 
-        System.out.println("Задача 6");
+        System.out.println("Задача 11");
 
         int bananas1  = 5;
         int milk = 2;
@@ -152,6 +154,29 @@ public class Main {
         int totalWeightGr = bananas1 * WeightBanana + milk * WeightMilk + WeightIceCream * IceCream + egg * WeightEgg;
         double totalWeightKG = totalWeightGr / 1_000;
         System.out.println("Общий вес в граммах " + totalWeightGr + " в кг " + totalWeightKG);
+
+
+
+        System.out.println("Задача 12");
+
+        int weightForLossInGrams = 7_000;
+        int DayMin = 250;
+        int  DayMax = 500;
+        double maxDays = weightForLossInGrams / DayMax;
+        double minDays = weightForLossInGrams / DayMin;
+        double weightLoss = (DayMin + DayMax) / 20;
+        double daysCount = weightForLossInGrams / weightLoss;
+
+        System.out.println("Минимальное кол-во дней для похудения " + minDays);
+        System.out.println("Минимальное кол-во дней для похудения " + maxDays);
+        System.out.println("Минимальное кол-во дней для похудения " + daysCount);
+
+        // не понятна задача под разбор
+
+
+        System.out.println("Задача 13");
+
+
 
 
 
