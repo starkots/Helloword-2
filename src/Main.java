@@ -176,7 +176,28 @@ public class Main {
 
         System.out.println("Задача 13");
 
+          int Masha = 67760;
+           int Denis = 83690;
+           int Kristina = 76230;
 
+           double indexSe = 1.1;
+
+           double newMasha = Masha * indexSe;
+           double newDenis = Denis * indexSe;
+           double newKristina = Kristina * indexSe;
+
+           double newM1 = 12 * Masha;
+           double newM2 = 12 * newM1;
+
+           double newD1 = 12 * Denis;
+           double newD2 = 12 * newD1;
+
+           double newK1 = 12 * Kristina;
+           double newK2 = 12 * newK1;
+
+           System.out.println("«Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + (newM2 - newM1) + "рублей");
+        System.out.println("«Маша теперь получает" + newDenis + "рублей. Годовой доход вырос на ... рублей».");
+        System.out.println("«Маша теперь получает ... рублей. Годовой доход вырос на ... рублей».");
 
 
 
