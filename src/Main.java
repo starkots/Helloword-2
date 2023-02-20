@@ -155,6 +155,8 @@ public class Main {
         double totalWeightKG = totalWeightGr / 1_000;
         System.out.println("Общий вес в граммах " + totalWeightGr + " в кг " + totalWeightKG);
 
+        // есть вопросы
+
 
 
         System.out.println("Задача 12");
@@ -176,9 +178,9 @@ public class Main {
 
         System.out.println("Задача 13");
 
-          int Masha = 67760;
-           int Denis = 83690;
-           int Kristina = 76230;
+          int Masha = 67_760;
+           int Denis = 83_690;
+           int Kristina = 76_230;
 
            double indexSe = 1.1;
 
@@ -196,9 +198,10 @@ public class Main {
            double newK2 = 12 * newK1;
 
            System.out.println("«Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + (newM2 - newM1) + "рублей");
-        System.out.println("«Маша теперь получает" + newDenis + "рублей. Годовой доход вырос на ... рублей».");
-        System.out.println("«Маша теперь получает ... рублей. Годовой доход вырос на ... рублей».");
+        System.out.println("«Маша теперь получает " + newDenis + "рублей. Годовой доход вырос на " + (newD2 - newD1) + " рублей»");
+        System.out.println("«Маша теперь получает " + newKristina + " рублей. Годовой доход вырос на " + (newK2 - newK1) + " рублей»");
 
+        // не совсем ясна задача надо разбирать
 
 
 
