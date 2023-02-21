@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Locale;
 
 public class Main {
@@ -286,41 +288,30 @@ public class Main {
             System.out.println("Если возраст человека равен " + age6 + " то ему нужно ходить на работу");
         }
 
+        System.out.println("Задача 5");
+
+        int age7 = 13;
+        if (age7 < 5 || age7 > 14) {
+            System.out.println("Если возраст ребенка равен " + age7 + " то ему нельзя кататься на атракционе");
+        } else {
+
+            int age8 = 13;
+            if (age7 > 5 || age7 > 14) {
+                System.out.println("Если возраст ребенка равен " + age7 + " то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+            } else {
+
+                System.out.println("Если возраст ребенка равен " + age7 + " то он может кататься без сопровождения взрослого");
+
+
+            }
+
+
+        }
 
 
     }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
 
 
 
