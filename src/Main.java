@@ -281,7 +281,21 @@ public class Main {
 
         System.out.println("Задача 6");
 
-        int one = 101;
+        int vag = 101;
+        int nr = 60;
+        if (vag > 60 && nr > 102) {
+            System.out.println("мест нету");
+        }
+        else if (vag > 60 && nr < 102) {
+            System.out.println("места есть");
+        }
+
+
+
+
+        System.out.println("Задача 7");
+
+        int one = 1;
         int two = 4;
         int three = 101;
 
