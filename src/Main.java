@@ -285,12 +285,9 @@ public class Main {
         int nr = 60;
         if (vag > 60 && nr > 102) {
             System.out.println("мест нету");
-        }
-        else if (vag > 60 && nr < 102) {
+        } else if (vag > 60 && nr < 102) {
             System.out.println("места есть");
         }
-
-
 
 
         System.out.println("Задача 7");
@@ -314,12 +311,28 @@ public class Main {
             System.out.println("Максимальное число - " + three);
         }
 
-    }   {   System.out.println("Все три числа равны");
+    }
+
+    {
+        System.out.println("Все три числа равны");
 
         // в задаче не разобрался надо вникать
 
 
+        //  УСЛОВНЫЕ ОПЕРАТОРЫ 2.
 
+        System.out.println("Задача 1");
+
+        int client = 0;
+        int clientOS = 0;
+        int clientOS1 = 1;
+        if (clientOS > clientOS1) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientOS < clientOS1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+
+
+        }
     }
 }
 
